@@ -1,0 +1,44 @@
+Some selected results are given here.
+
+OLS for Franke function:
+Mean squared error (no resampling): 0.0022522824738234804
+R2 score (no resampling): 0.9446807533247222
+Mean squared error (cross-validation): 0.0038269312750836603
+R2 score (cross-validation): 0.9776645202382529
+Mean squared error (Bootstrap): 0.9980319013194515
+R2 score (Bootstrap): 0.07154824392895184
+
+Ridge for Franke function:
+R2 score (without resampling): 0.9343990144055792
+MSE (without resampling): 0.0024681090306308273
+MSE (with Bootstap): 0.0021927195253433934
+R2 score (with Bootstrap): 0.9736296959437096
+R2 score (with cross-validation): 0.9731206600795742
+MSE (with cross-validation): 0.002291220351438641
+
+Lasso for Franke function:
+MSE (without resampling): 0.007124608199921309
+R2 score (without resampling): 0.9122276541868132
+R2 score (with cross-validation): 0.9216677890506609
+MSE (with cross-validation): 0.0059811283465493045
+
+
+We now give the variance of the beta parameter for certain cases (something that was not presented in the report).
+
+OLS on Franke function (without resampling):
+variance of betas: [3.52492381e-01 5.70966698e+01 5.70966698e+01 1.62760007e+03
+ 9.38916187e+02 1.62760008e+03 9.55612179e+03 4.91393094e+03
+ 4.91393094e+03 9.55612180e+03 1.17803421e+04 6.44689631e+03
+ 5.45111872e+03 6.44689631e+03 1.17803421e+04 2.01014044e+03
+ 1.43123465e+03 1.32177515e+03 1.32177515e+03 1.43123465e+03
+ 2.01014044e+03]
+ 
+ 
+Ridge (with optimal strength of regularization parameter = 10^-5) on Franke function (with Bootstrap):
+Variance of betas : [3.72202335e-06 4.61201795e-04 4.61043886e-04 1.06655108e-02
+  6.58354211e-03 1.06625081e-02 5.36312988e-02 2.97945652e-02
+  2.98124379e-02 5.35887237e-02 5.83940499e-02 3.43522837e-02
+  2.98508985e-02 3.43879587e-02 5.83520612e-02 8.97228112e-03
+  6.83234106e-03 6.50840692e-03 6.51983796e-03 6.84901304e-03
+  8.97305032e-03]
+ 
