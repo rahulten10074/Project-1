@@ -9,3 +9,8 @@ There are 4 different python programs whose functions are as follows:
 -The file Lasso.py performs fitting using the Lasso method on the Franke function both with and without resampling methods (cross validation)
 
 -The file Terrain analysis.py analysis the terrain data using OLS and Ridge. The resampling methods used are Bootstrap (for OLS) and cross validation (for Ridge). Lasso is also implemented in this code, but however it is found that this section of the code requires very long run times.
+
+
+
+
+NOTE: There is also a file titled "Selected results" which contain some selected results.
